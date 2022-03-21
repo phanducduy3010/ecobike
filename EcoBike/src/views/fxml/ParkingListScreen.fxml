@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="788.0" prefWidth="1326.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="194.0" layoutY="60.0" text="ECOBIKE" textFill="#09a4f2">
+            <font>
+                <Font name="Cambria Bold" size="36.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="logoHome" fitHeight="78.0" fitWidth="83.0" layoutX="91.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="logoUser" fitHeight="78.0" fitWidth="83.0" layoutX="1131.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+        <Label id="userName" fx:id="lbUser" layoutX="980.0" layoutY="71.0" style="-fx-padding: 10px; -fx-background-radius: 5px; -fx-background-color: #4F98CA;" text="Tran Xuan Vung" textFill="#effffb">
+            <font>
+                <Font name="Cambria Italic" size="18.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="backgroundParking" fitHeight="550.0" fitWidth="400.0" layoutX="116.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="543.0" layoutY="169.0" prefHeight="264.0" prefWidth="298.0" style="-fx-background-color: #fff; -fx-border-color: #4F98CA; -fx-border-width: 5px; -fx-border-radius: 10px;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" style="-fx-background-color: #4F98CA; -fx-padding: 5px; -fx-background-radius: 5px;" text="Bãi xe 1" textFill="#effffb">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="parkingInfo1" layoutX="30.0" layoutY="69.0" style="-fx-border-color: #EFFFFB;" text="Bãi xe 1">
+               <font>
+                  <Font name="Cambria Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonInfo1" layoutX="90.0" layoutY="210.0" mnemonicParsing="false" style="-fx-background-color: #50D890; -fx-padding: 5px; -fx-border-radius: 5px;" text="Xem chi tiết">
+               <font>
+                  <Font name="Cambria Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="backgroundParking1" fitHeight="550.0" fitWidth="400.0" layoutX="126.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="908.0" layoutY="169.0" prefHeight="264.0" prefWidth="298.0" style="-fx-background-color: #fff; -fx-border-color: #4F98CA; -fx-border-width: 5px; -fx-border-radius: 10px;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" style="-fx-background-color: #4F98CA; -fx-padding: 5px; -fx-background-radius: 5px;" text="Bãi xe 2" textFill="#effffb">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="parkingInfo2" layoutX="30.0" layoutY="69.0" style="-fx-border-color: #EFFFFB;" text="Bãi xe 1">
+               <font>
+                  <Font name="Cambria Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonInfo2" layoutX="90.0" layoutY="210.0" mnemonicParsing="false" style="-fx-background-color: #50D890; -fx-padding: 5px; -fx-border-radius: 5px;" text="Xem chi tiết">
+               <font>
+                  <Font name="Cambria Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="734.0" layoutY="472.0" prefHeight="264.0" prefWidth="298.0" style="-fx-background-color: #fff; -fx-border-color: #4F98CA; -fx-border-width: 5px; -fx-border-radius: 10px;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" style="-fx-background-color: #4F98CA; -fx-padding: 5px; -fx-background-radius: 5px;" text="Bãi xe 3" textFill="#effffb">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="parkingInfo3" layoutX="30.0" layoutY="69.0" style="-fx-border-color: #EFFFFB;" text="Bãi xe 1">
+               <font>
+                  <Font name="Cambria Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonInfo3" layoutX="90.0" layoutY="210.0" mnemonicParsing="false" style="-fx-background-color: #50D890; -fx-padding: 5px; -fx-border-radius: 5px;" text="Xem chi tiết">
+               <font>
+                  <Font name="Cambria Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

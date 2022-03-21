@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="788.0" prefWidth="1326.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="80.0" prefWidth="1366.0">
+            <children>
+                <Text fill="#29a0d3" layoutX="187.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ECOBIKE">
+                    <font>
+                        <Font name="Times New Roman Bold" size="32.0" />
+                    </font>
+                </Text>
+                <ImageView fx:id="imgLogo" fitHeight="80.0" fitWidth="108.0" layoutX="46.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="imgUser" fitHeight="80.0" fitWidth="100.0" layoutX="1214.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="lbUser" layoutX="1056.0" layoutY="18.0" prefHeight="45.0" prefWidth="136.0" style="-fx-background-color: #4f98ca; -fx-padding: 10px; -fx-background-radius: 5px;" text="Label" textFill="WHITE">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+<!--        <Pane prefHeight="80.0" prefWidth="1366.0" style="-fx-background-color: #e9e9e9;">-->
+<!--            <children>-->
+<!--                <Text fill="#29a0d3" layoutX="187.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ECOBIKE">-->
+<!--                    <font>-->
+<!--                        <Font name="Times New Roman Bold" size="32.0" />-->
+<!--                    </font>-->
+<!--                </Text>-->
+<!--                <ImageView fx:id="iconImg" fitHeight="80.0" fitWidth="108.0" layoutX="46.0" pickOnBounds="true" preserveRatio="true" />-->
+<!--            </children>-->
+<!--        </Pane>-->
+        <Label fx:id="userName" layoutX="520.0" layoutY="441.0" style="-fx-padding: 10px; -fx-background-radius: 5px; -fx-background-color: #4f98ca;" text="Tran Xuan Vung" textFill="#effffb">
+            <font>
+                <Font name="Cambria Italic" size="18.0" />
+            </font>
+        </Label>
+      <Button fx:id="parkingButton" layoutX="791.0" layoutY="312.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="273.0" style="-fx-background-color: #39A4E8;" text="Danh sách bãi xe" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="backgroundHome" fitHeight="550.0" fitWidth="400.0" layoutX="274.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnLogout" layoutX="789.0" layoutY="538.0" mnemonicParsing="false" onAction="#logout" prefHeight="75.0" prefWidth="273.0" style="-fx-background-color: #39A4E8;" text="Đăng xuất" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnListCustomer" layoutX="789.0" layoutY="424.0" mnemonicParsing="false" onAction="#showListCustomer" prefHeight="75.0" prefWidth="273.0" style="-fx-background-color: #39A4E8;" text="Danh sách khách hàng" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

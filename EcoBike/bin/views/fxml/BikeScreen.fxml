@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="164.0" layoutY="170.0" prefHeight="493.0" prefWidth="1026.0" style="-fx-background-color: #E8E8E8; -fx-border-color: #0066CC;">
+         <children>
+            <ImageView fx:id="vehicleImage" fitHeight="338.0" fitWidth="426.0" layoutX="59.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="nameVehicle" layoutX="755.0" layoutY="47.0" text="Xe điện 1" textFill="#1065c6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="vehicleInfo" layoutX="628.0" layoutY="90.0" prefHeight="192.0" prefWidth="324.0" style="-fx-border-color: #0066CC;">
+               <font>
+                  <Font size="16.0" />
+               </font></TextArea>
+            <Button fx:id="rentalBtn" layoutX="846.0" layoutY="316.0" mnemonicParsing="false" onAction="#rentVehicle" style="-fx-background-color: #3399FF;" text="Xác nhận" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="errorBox" layoutX="587.0" layoutY="287.0" prefHeight="26.0" prefWidth="365.0" textFill="#f50000">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <HBox layoutY="1.0" prefHeight="80.0" prefWidth="1365.0">
+         <children>
+            <ImageView fx:id="iconImg" fitHeight="80.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="80.0" prefWidth="1281.0">
+               <children>
+                  <Label layoutX="529.0" layoutY="23.0" textFill="#0c67ed">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="24.0" text="ECOBIKE" textFill="#004cf0">
+                     <font>
+                        <Font name="Times New Roman Bold" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <Button fx:id="backBtn" layoutX="164.0" layoutY="97.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="150.0" text="Quay lại" onAction="#backToPrevScreen">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

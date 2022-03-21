@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+
+  <Pane prefHeight="80.0" prefWidth="1366.0" style="-fx-background-color: #e9e9e9;">
+    <children>
+      <Label layoutX="96.0" layoutY="21.0" text="ECOBIKE" textFill="#09a4f2">
+        <font>
+          <Font name="Cambria Bold" size="36.0" />
+        </font>
+      </Label>
+      <ImageView fx:id="logoHome" fitHeight="78.0" fitWidth="83.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="logoUser" fitHeight="78.0" fitWidth="83.0" layoutX="1255.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="userName" fx:id="lbUser" layoutX="1077.0" layoutY="23.0" style="-fx-padding: 10px; -fx-background-radius: 5px; -fx-background-color: #4F98CA;" text="Tran Xuan Vung" textFill="#effffb">
+        <font>
+          <Font name="Cambria Italic" size="18.0" />
+        </font>
+      </Label>
+    </children>
+  </Pane>
+  <Button fx:id="pay" layoutX="732.0" layoutY="657.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="271.0" text="Trả xe" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="519.0" layoutX="156.0" layoutY="119.0" stroke="BLACK" strokeType="INSIDE" width="1045.0" />
+   <Button fx:id="back" layoutX="365.0" layoutY="657.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="271.0" text="Quay lại" />
+   <Text layoutX="497.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thông tin xe đang thuê" wrappingWidth="371.88671875">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="430.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên phương tiện" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="593.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giá" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="455.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thời gian thuê" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="557.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bãi xe" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="505.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biển số xe" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="440.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mã phương tiện" textAlignment="RIGHT">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <TextField fx:id="name" layoutX="678.0" layoutY="239.0" prefHeight="35.0" prefWidth="250.0" />
+   <TextField fx:id="code" layoutX="678.0" layoutY="296.0" prefHeight="35.0" prefWidth="250.0" />
+   <TextField fx:id="plate" layoutX="678.0" layoutY="347.0" prefHeight="35.0" prefWidth="250.0" />
+   <TextField fx:id="startStation" layoutX="678.0" layoutY="404.0" prefHeight="35.0" prefWidth="250.0" />
+   <TextField fx:id="startTime" layoutX="678.0" layoutY="456.0" prefHeight="35.0" prefWidth="250.0" />
+   <TextField fx:id="price" layoutX="678.0" layoutY="507.0" prefHeight="35.0" prefWidth="250.0" />
+
+</AnchorPane>
